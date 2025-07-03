@@ -1,9 +1,13 @@
 <div class="flex h-screen items-center justify-start bg-bg_dark">
   <div class="flex flex-col">
-    <app-button-navigation page="Sobre mim"></app-button-navigation>
-    <app-button-navigation page="Projetos"></app-button-navigation>
-    <app-button-navigation page="Habilidades"></app-button-navigation>
-    <app-button-navigation page="Contato"></app-button-navigation>
+    <app-button-navigation page="Sobre mim" to="/aboutme"></app-button-navigation>
+    <app-button-navigation page="Projetos" to="/projects"></app-button-navigation>
+    <app-button-navigation page="Habilidades" to="/skills"></app-button-navigation>
+    <app-button-navigation page="Contato" to="/contact"></app-button-navigation>
+  </div>
+
+  <div class="">
+    <router-outlet></router-outlet>
   </div>
 </div>
 
