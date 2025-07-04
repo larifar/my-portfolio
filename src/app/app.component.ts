@@ -1,13 +1,13 @@
-import { Component, AfterViewInit, HostListener } from '@angular/core';
-import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
-import { MatButtonModule } from '@angular/material/button';
-import { ButtonNavigationComponent } from "./components/button-navigation/button-navigation.component";
 import { NgIf } from '@angular/common';
-import { filter } from 'rxjs';
-import { AboutMeComponent } from "./pages/about-me/about-me.component";
-import { ProjectsComponent } from "./pages/projects/projects.component";
-import { SkillsComponent } from "./pages/skills/skills.component";
-import { ContactComponent } from "./pages/contact/contact.component";
+import { AfterViewInit, Component, HostListener } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { RouterOutlet } from '@angular/router';
+
+import { ButtonNavigationComponent } from './components/button-navigation/button-navigation.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { SkillsComponent } from './pages/skills/skills.component';
 
 @Component({
   selector: 'app-root',
