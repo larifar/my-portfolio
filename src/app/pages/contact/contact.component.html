@@ -1,1 +1,9 @@
-<p>contact works!</p>
+<h2 class="text-3xl mb-8 text-center">Contato</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-x-8">
+  <app-contact-item
+  *ngFor="let contact of contacts"
+  [contact]="contact.contact"
+  [image]="contact.image"
+  [link]="contact.link"
+  ></app-contact-item>
+</div>
