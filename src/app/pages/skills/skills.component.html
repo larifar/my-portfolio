@@ -1,1 +1,4 @@
-<p>skills works!</p>
+<h2 class="text-3xl mb-4 text-center">Habilidades</h2>
+<div class="grid grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-6">
+  <app-skill-item *ngFor="let skill of skills" [name]="skill"></app-skill-item>
+</div>
