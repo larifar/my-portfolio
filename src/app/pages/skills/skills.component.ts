@@ -10,5 +10,7 @@ import { SkillItemComponent } from "../../components/skill-item/skill-item.compo
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
-skills = ["Angular", "Java", "Docker", "Git"]
+skills = ["Angular", "Java", "Docker", "Git", "Spring Boot", "Typescript", "MySQL", "HTML", "Tailwind CSS",
+
+]
 }
