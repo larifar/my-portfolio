@@ -24,6 +24,12 @@ projects = [
     link: 'https://github.com/larifar/angular-small-crud-project',
   },
   {
+    title: 'Campanha de Vacinação',
+    description: 'Projeto fictício de campanha de vacinação animal contra a raiva, com informações sobre a vacina, lista de postos e integração com Google Maps para encontrar o posto mais próximo de você.',
+    image: 'assets/imgs/campanhavacinacao.png',
+    link: 'https://github.com/larifar/project-campanha-vacinacao',
+  },
+  {
     title: 'Calculadora de Ração',
     description: 'Aplicativo web simples e intuitivo para donos de pets calcularem facilmente a duração e o custo da ração com base na porção diária, ajudando no planejamento da alimentação do animal.',
     image: 'assets/imgs/calculadora racao.png',
